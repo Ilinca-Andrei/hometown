@@ -1,0 +1,56 @@
+.section-activities {
+    width: auto;
+    height: 30%;
+    background-color: #73A8C8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-activities {
+    font-size: 24px;
+    background-color: #F6C49Fff;
+    color: #174C61ff;
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: underline #73A8C8ff;
+    margin: 10px 0px;
+}
+
+.activity-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.activity1, .activity2, .activity3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #F6C49Fff;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.info1 ,.info2, .info3 {
+    margin: 0px;
+    text-align: center;
+    color: #174C61ff;
+    font-weight: 600;
+    opacity: 0%;
+    transition-duration: 0.4s;
+}
+
+.activity1:hover .info1, .activity2:hover .info2, .activity3:hover .info3 {
+    opacity: 100%;
+    transition-duration: 0.4s;
+}
+

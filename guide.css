@@ -1,0 +1,39 @@
+.section-guide {
+    width: auto;
+    height: 30%;
+    background-color: #174C61ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.guide {
+    height: 150px;
+    width: 400px;
+    background-color: #A27070ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#guide-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
+    margin:25px;
+}
+
+.guide-info {
+    margin: 0;
+    text-align: center;
+    color: #174C61ff;
+    font-weight: 600;
+}
+/* --cadet-blue-crayola: #AAB9CEff;
+--sapphire-blue: #1F6490ff;
+--peach-crayola: #F6C49Fff;
+--midnight-green-eagle-green: #174C61ff;
+--copper-rose: #A27070ff;
+--air-superiority-blue: #73A8C8ff; 
+--phthalo-green: #182C20ff;*/

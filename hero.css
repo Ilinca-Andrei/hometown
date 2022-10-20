@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    font-family: 'Signika', sans-serif;
+}
+
+.border {
+    border-top: 2px solid #A27070ff;
+}
+
+.section-hero {
+    background-image: url("images/RMVL.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #174C61ff;
+    display: flex;
+}
+
+#header1 {
+    font-size: 40px;
+    background-color: #F6C49Fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#header1:hover {
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+
+#header2 {
+    font-size: 24px;
+    background-color: #F6C49Fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#header2:hover {
+    opacity: 0;
+    transition-duration: 0.4s;
+}
